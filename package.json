@@ -1,0 +1,28 @@
+{
+  "name": "ticketbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dankmemer/ticketbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dankmemer/ticketbot/issues"
+  },
+  "homepage": "https://github.com/dankmemer/ticketbot#readme",
+  "dependencies": {
+    "eris": "^0.11.2",
+    "mongodb": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.3.14",
+    "@types/node": "^13.1.2"
+  }
+}

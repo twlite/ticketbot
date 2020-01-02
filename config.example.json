@@ -1,0 +1,15 @@
+{
+  "clientConfig": {
+    "token": "bot token",
+    "roleID": "role id lock",
+    "guildID": "guild id lock",
+    "channelID": "guild channel lock",
+    "prefix": "prefix ",
+    "owners": [ "array", "of", "user", "ids" ],
+    "recipients": [ "array", "of", "dm", "channel", "ids" ]
+  },
+  "dbConfig": {
+    "url": "mongo connection string",
+    "dbName": "mongo db name"
+  }
+}
