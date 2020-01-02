@@ -1,0 +1,7 @@
+{
+    "files.exclude": {
+        "**/*.js": true
+    },
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2
+}
