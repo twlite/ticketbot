@@ -44,7 +44,7 @@ class TicketBot extends eris_1.Client {
                 !msg.content.startsWith(this.opts.prefix)) {
                 return;
             }
-            const [commandName, ...args] = msg.content.slice(this.opts.prefix.length).split(/\s/g);
+            const [commandName, ...args] = msg.content.slice(this.opts.prefix.length).split(/ /g);
             const command = commands_1.default.get(commandName);
             if (!command) {
                 return;

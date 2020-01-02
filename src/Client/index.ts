@@ -53,7 +53,7 @@ export default class TicketBot extends Client {
       return;
     }
 
-    const [ commandName, ...args ] = msg.content.slice(this.opts.prefix.length).split(/\s/g);
+    const [ commandName, ...args ] = msg.content.slice(this.opts.prefix.length).split(/ /g);
     const command = commands.get(commandName);
     if (!command) {
       return;
